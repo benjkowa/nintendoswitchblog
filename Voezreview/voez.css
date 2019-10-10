@@ -19,7 +19,9 @@
 header {
 	padding: 50px;
 	text-align: center;
-	background-image: url(images.jpg) center;
+	background-image: url(images.jpg);
+	background-position: center;
+	background-size:cover;
 	color: red;
 	font-size: 30px;
 	background-repeat:no-repeat;
