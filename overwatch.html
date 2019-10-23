@@ -37,7 +37,20 @@
       <p>We Will look at the game play with this video provided by:IGN on youtube  </p> <iframe width="560" height="315" src="https://www.youtube.com/embed/v4LOHMf2v-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <aside id="authorInfo"> 
         <!-- The author information is contained here -->
-        
+        <h1> POST YOUR COMMENT</h1>
+        <p> Comments will be held for manual review</p>
+        <form name="Comment" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <p>
+    <label>Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       </aside>
     </section>
     <section id="sidebar"> 
@@ -54,7 +67,9 @@
         </ul>
       </nav>
     </section>
-    <footer> 
+    
+    <footer>
+      
       <!--************************************************************************
     Footer starts here
     ****************************************************************************-->
